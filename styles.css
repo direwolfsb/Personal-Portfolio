@@ -344,6 +344,21 @@ color:#555;
     height: 20rem;
     border-radius: 50%;
     object-fit: cover;
+    }
+    
+    .section-1{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .section-4{
+        width:95%;
+    }
+    .contact-form{
+    
+    width:  40rem;
+
+    
 }
 
 }
