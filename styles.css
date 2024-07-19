@@ -334,10 +334,17 @@ color:#555;
 
 @media(max-width: 520px){
     html{
-        font-size: 42%;
+        font-size: 38%;
     }
     .navbar-link{
         margin: 0 1.5rem;
     }
+    .person-img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 }
 /* end of responsive */
