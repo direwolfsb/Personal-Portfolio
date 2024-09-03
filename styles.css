@@ -387,6 +387,8 @@ html {
 }
 
 /* Media Queries */
+
+/* For medium screens (max-width: 1200px) */
 @media (max-width: 1200px) {
     .section-4 {
         height: 80vh;
@@ -402,6 +404,7 @@ html {
     }
 }
 
+/* For small screens (max-width: 768px) */
 @media (max-width: 768px) {
     .skills-container {
         flex-direction: column;
@@ -428,12 +431,14 @@ html {
     }
 }
 
+/* For very small screens (max-width: 600px) */
 @media (max-width: 600px) {
     html {
         font-size: 55%;
     }
 }
 
+/* For extra small screens (max-width: 520px) */
 @media (max-width: 520px) {
     html {
         font-size: 42%;
@@ -447,56 +452,7 @@ html {
         width: 100%;
         margin: 0 auto;
     }
-}
 
-@media (max-width: 480px) {
-    /* General styles */
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.section-1 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.section-1-info h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.section-1-info h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.person-img {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 1.5rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    font-size: 1rem;
-}
-
-.contact-form input[type="submit"] {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-}
-
-/* Responsive styles */
-@media only screen and (max-width: 520px) {
     .section-1-info h1 {
         font-size: 2rem;
     }
@@ -508,6 +464,11 @@ html {
     .person-img {
         width: 150px;
         height: auto;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 1rem;
     }
 
     .contact-form input,
@@ -522,6 +483,8 @@ html {
     }
 }
 
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
     .skills-box {
         width: 100%;
     }
